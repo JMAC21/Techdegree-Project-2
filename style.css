@@ -1,0 +1,80 @@
+/* ******* Base Styles ****** */
+* {
+  box-sizing: border-box;
+}
+
+
+/* ******** Main Layout ******* */
+
+body {
+  background: lightgrey;
+  width: 75%;
+  margin:0 auto;
+}
+
+.main-header {
+  border: 10px solid blue;
+}
+
+.banner{
+  border: 10px solid firebrick;
+  margin-top: 25px;
+}
+
+.primary-content {
+  background: #fff;
+  margin-top: 25px;
+  padding-bottom: 95px;
+  border: 10px solid green;
+  max-width: 50%;
+  clear:both;
+}
+
+.profile {
+  float: right;
+}
+
+img {
+  border: 10px 20px 0px
+  width: 50%;
+}
+
+/* Links */
+a:link {
+  color: firebrick;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color:orange;
+}
+
+
+.contact {
+  text-align: center;
+  border: solid orange 10px;
+}
+
+footer {
+  border: solid black 10px;
+}
+/* ****** Media Queries ***** */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .main-header {
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 320px) {
+
+}
